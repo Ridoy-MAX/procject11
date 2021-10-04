@@ -181,6 +181,9 @@ $('.patner-slider').slick({
 
 
 
+
+
+
 });     
 
 
