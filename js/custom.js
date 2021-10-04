@@ -1,14 +1,19 @@
 $(document).ready(function(){ 
-
+//color;
+  $('.default').click(function(){
+    $('body').addClass('default').removeClass('blue').removeClass('green').removeClass('pink');
+  });
   $('.green').click(function(){
-    $('body').addClass('green');
+    $('body').addClass('green').removeClass('blue').removeClass('pink');
   });
   $('.blue').click(function(){
-    $('body').addClass('blue');
+    $('body').addClass('blue').removeClass('green').removeClass('pink');
   });
   $('.pink').click(function(){
-    $('body').addClass('pink');
+    $('body').addClass('pink').removeClass('blue').removeClass('green');
   });
+
+ 
     //slider;
     $('.banner-slider').slick({
     autoplay: false,
