@@ -180,6 +180,269 @@ margin-left: 85%;
 font-family: fantasy;
 }
 /* modals end */
+/* offin start*/
+.offcanvas {
+	position: fixed;
+	bottom: 0;
+	z-index: 2222222 !important;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, 0.938);
+	background-clip: padding-box;
+	outline: 0;
+	transition: transform 0.3s ease-in-out;
+    color: white;
+}
+.offcanvas .offcanvas-body ul{
+ margin-left: 23%;
+ margin-top: 10%;
+}
+.offcanvas .offcanvas-body ul li{
+    width: 30px;
+    height: 30px;
+       margin-right: 20px;
+       cursor: pointer;
+   
+}
+.offcanvas .offcanvas-body .default{
+    background-color: rgb(226, 62, 56);
+}
+.offcanvas .offcanvas-body .green{
+    background-color: #03fc45;
+}
+.offcanvas .offcanvas-body .blue{
+    background-color: rgb(3, 86, 252);
+}
+.offcanvas .offcanvas-body .pink{
+    background-color: rgb(189, 24, 204);
+}
+#offcanvasRightLabel{
+
+    font-family: var(--hfont);
+    font-size: 38px;
+    text-transform: uppercase;
+   margin-left: 16%;
+}
+
+.offcanvas-header .btn-close {
+	padding: 0.5rem 0.5rem;
+	margin-top: -0.5rem;
+	margin-right: -0.5rem;
+	margin-bottom: -0.5rem;
+    color: rgb(248, 248, 248) !important;
+    background-color: brown;
+}
+
+
+
+
+
+
+.green #banner .banner-item h1,
+.green #about .about-img .overlay i,
+.green #testimonial .testi-bg .slider i 
+
+{
+   
+    color: #03fc45;
+}
+.green #banner .bg1 h4::before,
+.green #banner .bg1 h4::after,
+.green #banner .bg1 h1::before,
+.green #banner .bg1 h1::after,
+.green #banner .bg1 p::before,
+.green #banner .bg1 p::after,
+.green #banner .slick-dots li::after,
+.green #banner .banner-item a:hover,
+.green .navbar .navbar-nav .nav-item .nav-link::before,
+.green #testimonial .slick-dots li::after
+{
+    background-color: #03fc45;
+    border-color: #03fc45;
+}
+.green .btn-m{
+    background-color: #03fc45;
+    border-color: #03fc45;
+    color: #000;
+}
+.green #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.green #team .container .team-img .team-overlay
+{
+    background-color: rgba(3, 252, 69, 0.678);
+    
+}
+.green #member .member .row .col-lg-4 .member1:hover .text1,
+.green #member .member .row .col-lg-4 .member1:hover .join
+{
+    background-color: #03fc45;
+    color: black;
+}
+.green #member .member .row .col-lg-4 .member1:hover .text1 h2,
+.green #member .member .row .col-lg-4 .member1:hover .join h2
+{
+   
+    color: black;
+}
+.green .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	color: #000000 !important;
+	background-color: #03fc45;
+	border: none;
+}
+.green #our-class .tab-content ul li.active {
+    background-color: #03fc45;
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blue #banner .banner-item h1,
+.blue #about .about-img .overlay i,
+.blue #testimonial .testi-bg .slider i 
+
+{
+   
+    color: rgb(3, 86, 252);
+}
+.blue #banner .bg1 h4::before,
+.blue #banner .bg1 h4::after,
+.blue #banner .bg1 h1::before,
+.blue #banner .bg1 h1::after,
+.blue #banner .bg1 p::before,
+.blue #banner .bg1 p::after,
+.blue #banner .slick-dots li::after,
+.blue #banner .banner-item a:hover,
+.blue .navbar .navbar-nav .nav-item .nav-link::before,
+.blue #testimonial .slick-dots li::after
+{
+    background-color: rgb(3, 86, 252);
+    border-color: rgb(3, 86, 252);
+}
+.blue .btn-m{
+    background-color: rgb(3, 86, 252);
+    border-color: rgb(3, 86, 252);
+    color: #000;
+}
+.blue #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.blue #team .container .team-img .team-overlay
+{
+    background-color: rgba(3, 86, 252, 0.596);
+    
+}
+.blue #member .member .row .col-lg-4 .member1:hover .text1,
+.blue #member .member .row .col-lg-4 .member1:hover .join
+{
+    background-color: rgb(3, 86, 252);
+    color: black;
+}
+.blue #member .member .row .col-lg-4 .member1:hover .text1 h2,
+.blue #member .member .row .col-lg-4 .member1:hover .join h2
+{
+   
+    color: black;
+}
+.blue .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	color: #000000 !important;
+	background-color: rgb(3, 86, 252);
+	border: none;
+}
+.blue #our-class .tab-content ul li.active {
+    background-color: rgb(3, 86, 252);
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pink #banner .banner-item h1,
+.pink #about .about-img .overlay i,
+.pink #testimonial .testi-bg .slider i 
+
+{
+   
+    color: rgb(189, 24, 204);
+}
+.pink #banner .bg1 h4::before,
+.pink #banner .bg1 h4::after,
+.pink #banner .bg1 h1::before,
+.pink #banner .bg1 h1::after,
+.pink #banner .bg1 p::before,
+.pink #banner .bg1 p::after,
+.pink #banner .slick-dots li::after,
+.pink #banner .banner-item a:hover,
+.pink .navbar .navbar-nav .nav-item .nav-link::before,
+.pink #testimonial .slick-dots li::after
+{
+    background-color: rgb(189, 24, 204);
+    border-color: rgb(189, 24, 204);
+}
+.pink .btn-m{
+    background-color: rgb(189, 24, 204);
+    border-color: rgb(189, 24, 204);
+    color: #000;
+}
+.pink #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.pink #team .container .team-img .team-overlay
+{
+    background-color: rgba(189, 24, 204, 0.527);
+    
+}
+.pink #member .member .row .col-lg-4 .member1:hover .text1,
+.pink #member .member .row .col-lg-4 .member1:hover .join
+{
+    background-color: rgb(189, 24, 204);
+    color: black;
+}
+.pink #member .member .row .col-lg-4 .member1:hover .text1 h2,
+.pink #member .member .row .col-lg-4 .member1:hover .join h2
+{
+   
+    color: black;
+}
+.pink .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	color: #000000 !important;
+	background-color: rgb(189, 24, 204);
+	border: none;
+}
+.pink #our-class .tab-content ul li.active {
+    background-color: rgb(189, 24, 204);
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* offin end*/
 /*
 banner
 */

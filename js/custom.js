@@ -1,4 +1,14 @@
 $(document).ready(function(){ 
+
+  $('.green').click(function(){
+    $('body').addClass('green');
+  });
+  $('.blue').click(function(){
+    $('body').addClass('blue');
+  });
+  $('.pink').click(function(){
+    $('body').addClass('pink');
+  });
     //slider;
     $('.banner-slider').slick({
     autoplay: false,

@@ -15,7 +15,7 @@
    
     <title>Document</title>
 </head>
-<body>
+<body >
 
 
 
@@ -64,7 +64,10 @@
    
             </ul>
 
-            <a class="btn btn-danger text-uppercase btn-sm mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal"> Sing Up</a>
+            <a class="btn btn-danger text-uppercase btn-sm mx-3 btn-m" data-bs-toggle="modal" data-bs-target="#exampleModal"> Sing Up</a>
+            <a class="btn btn-danger btn-m" href="#" role="button"
+             data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></a>
      
           </div>
         </div>
@@ -101,7 +104,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-danger ">Sing In</button>
+            <button type="submit" class="btn btn-danger btn-m ">Sing In</button>
           </form>
         </div>
         <div class="col-lg-5">
@@ -116,7 +119,25 @@
   </div>
 </div>
 <!-- Modal end-->
+<!-- offcanvas start -->
 
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Chosse Color</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <ul class="ps-0 d-flex">
+    <li class="default"></li>
+    <li class="green"></li>
+    <li class="blue"></li>
+    <li class="pink"></li>
+  
+  </ul>
+  </div>
+</div>
+<!-- offcanvas end -->
 <section id="banner">
   <div class="banner-slider">
     <div class="banner-item bg1">
