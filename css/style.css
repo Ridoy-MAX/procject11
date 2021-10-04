@@ -242,8 +242,9 @@ font-family: fantasy;
 
 .green #banner .banner-item h1,
 .green #about .about-img .overlay i,
-.green #testimonial .testi-bg .slider i 
-
+.green #testimonial .testi-bg .slider i ,
+.green #footer .footer .footer-details .details .contact i ,
+.green #footer .footer-end .row span 
 {
    
     color: #03fc45;
@@ -310,8 +311,9 @@ font-family: fantasy;
 
 .blue #banner .banner-item h1,
 .blue #about .about-img .overlay i,
-.blue #testimonial .testi-bg .slider i 
-
+.blue #testimonial .testi-bg .slider i ,
+.blue #footer .footer .footer-details .details .contact i ,
+.blue #footer .footer-end .row span 
 {
    
     color: rgb(3, 86, 252);
@@ -380,8 +382,9 @@ font-family: fantasy;
 
 .pink #banner .banner-item h1,
 .pink #about .about-img .overlay i,
-.pink #testimonial .testi-bg .slider i 
-
+.pink #testimonial .testi-bg .slider i ,
+.pink #footer .footer .footer-details .details .contact i ,
+.pink #footer .footer-end .row span 
 {
    
     color: rgb(189, 24, 204);
