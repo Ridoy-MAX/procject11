@@ -341,3 +341,49 @@
         margin-top: -55px;
     }
 }
+@media (max-width: 460px){
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 72%;
+        margin-top: -55px;
+    }
+}
+@media (max-width: 405px){
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 70%;
+        margin-top: -55px;
+    }
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 68%;
+        margin-top: -53px;
+    }
+}
+@media (max-width: 378px){
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 68%;
+        margin-top: -55px;
+    }
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 68%;
+        margin-top: -53px;
+    }
+}
+
+@media (max-width: 360px){
+
+    .navbar .navbar-brand {
+        background: #323232 !important;
+        padding: 1px 0px !important;
+        transform: skewX(-30deg);
+        margin-left: 25px;
+    }
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 68%;
+        margin-top: -53px;
+    }
+}
