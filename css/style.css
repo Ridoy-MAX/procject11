@@ -100,7 +100,9 @@ transition: 00.4s;
 margin-left: 85%;
 	
 }
-
+.btn-color{
+ margin-right: 10px;
+}
 /* modals */
 .modal {
 	position: fixed;
@@ -268,9 +270,9 @@ font-size: 16px;
     border-color: #03fc45;
 }
 .green .btn-m{
-    background-color: #03fc45;
-    border-color: #03fc45;
-    color: #000;
+    background-color: #03fc45 !important;
+    border-color: #03fc45 !important;
+    color: #000 !important;
 }
 .green #gallery .gallery-bg .gallery-item figure .gl-overlay,
 .green #team .container .team-img .team-overlay
@@ -339,9 +341,9 @@ font-size: 16px;
     border-color: rgb(3, 86, 252);
 }
 .blue .btn-m{
-    background-color: rgb(3, 86, 252);
-    border-color: rgb(3, 86, 252);
-    color: #000;
+    background-color: rgb(3, 86, 252)!important;
+    border-color: rgb(3, 86, 252)!important;
+    color: #000!important;
 }
 .blue #gallery .gallery-bg .gallery-item figure .gl-overlay,
 .blue #team .container .team-img .team-overlay
@@ -411,9 +413,9 @@ font-size: 16px;
     border-color: rgb(189, 24, 204);
 }
 .pink .btn-m{
-    background-color: rgb(189, 24, 204);
-    border-color: rgb(189, 24, 204);
-    color: #000;
+    background-color: rgb(189, 24, 204)!important;
+    border-color: rgb(189, 24, 204)!important;
+    color: #000!important;
 }
 .pink #gallery .gallery-bg .gallery-item figure .gl-overlay,
 .pink #team .container .team-img .team-overlay
