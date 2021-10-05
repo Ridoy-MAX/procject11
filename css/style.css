@@ -236,9 +236,13 @@ font-family: fantasy;
 }
 
 
+.btn-color i{
+font-size: 16px;
+}
 
-
-
+.btn-color{
+    padding: 4px 16px;
+}
 
 .green #banner .banner-item h1,
 .green #about .about-img .overlay i,
@@ -270,12 +274,14 @@ font-family: fantasy;
 }
 .green #gallery .gallery-bg .gallery-item figure .gl-overlay,
 .green #team .container .team-img .team-overlay
+
 {
     background-color: rgba(3, 252, 69, 0.678);
     
 }
 .green #member .member .row .col-lg-4 .member1:hover .text1,
-.green #member .member .row .col-lg-4 .member1:hover .join
+.green #member .member .row .col-lg-4 .member1:hover .join,
+.green .navbar-toggler
 {
     background-color: #03fc45;
     color: black;
@@ -344,7 +350,8 @@ font-family: fantasy;
     
 }
 .blue #member .member .row .col-lg-4 .member1:hover .text1,
-.blue #member .member .row .col-lg-4 .member1:hover .join
+.blue #member .member .row .col-lg-4 .member1:hover .join,
+.blue .navbar-toggler
 {
     background-color: rgb(3, 86, 252);
     color: black;
@@ -415,7 +422,8 @@ font-family: fantasy;
     
 }
 .pink #member .member .row .col-lg-4 .member1:hover .text1,
-.pink #member .member .row .col-lg-4 .member1:hover .join
+.pink #member .member .row .col-lg-4 .member1:hover .join,
+.pink .navbar-toggler
 {
     background-color: rgb(189, 24, 204);
     color: black;

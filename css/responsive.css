@@ -111,12 +111,43 @@
         padding-left: 31px; 
         padding-left: 13px;
     }
+    .navbar-toggler span{
+    color: white;
+    width: 31px;
+    height: 24px;
+    font-size: 25px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 27px;
+        height: 24px;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+       color: white !important;
+       background-color: white;
+    }
+    .btn-color{
+      margin-left: 20%;
+    }
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 83%;
+        margin-top: -71px;
+        color: white;
+    }
 }
  /*==================
     small 
    =============*/
 @media (max-width: 768px){
-
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 78%;
+        margin-top: -71px;
+        color: white;
+    }
     #our-class .tab-content ul li {
         background: #f1f1f1;
         width: 19.5%;
@@ -164,6 +195,19 @@
    extra small 
    =============*/
 @media (max-width: 575px){
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 78%;
+        margin-top: -55px;
+    }
+    .btn-sing-up{
+        margin-left: 20px;
+    }
+    .btn-color {
+        margin-left: 26%;
+        padding: 3px 15px;
+       
+    }
     #banner .banner-item{
         height: 525px;
         }
@@ -184,11 +228,7 @@
 	height: 100%;
 	color: var(--hcol);
 }
-    .navbar-toggler {
-        background-color: white;
-        margin-left: 86%;
-        margin-top: -55px;
-    }
+   
     .navbar .navbar-brand {
         background: #323232 !important;
         padding: 2px 15px !important;
@@ -292,5 +332,12 @@
     #footer .footer .footer-details .details .row {
         margin-right: -108px;
         padding-bottom: -3px;
+    }
+}
+@media (max-width: 530px){
+    .navbar-toggler {
+        background-color: #dc3545;
+        margin-left: 75%;
+        margin-top: -55px;
     }
 }
