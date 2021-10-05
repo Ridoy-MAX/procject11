@@ -196,6 +196,21 @@
    extra small 
    =============*/
 @media (max-width: 575px){
+    html{
+        overflow: scroll !important;
+        overflow-x: hidden !important;
+    
+    }
+    ::-webkit-scrollbar
+{
+
+    width: 0px !important;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 0px !important;
+    visibility: hidden;
+}
     .navbar-toggler {
         background-color: #dc3545;
         margin-left: 78%;

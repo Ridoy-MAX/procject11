@@ -20,7 +20,22 @@ a{
 ul{
     list-style: none;
 }
-
+::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 7px;
+    background:linear-gradient(black ,rgb(226, 62, 56));
+    cursor: pointer;
+    
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:linear-gradient(transparent ,#5f15ce);
+}
 /*
 common css end
 */
