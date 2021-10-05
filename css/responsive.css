@@ -196,21 +196,8 @@
    extra small 
    =============*/
 @media (max-width: 575px){
-    html{
-        overflow: scroll !important;
-        overflow-x: hidden !important;
-    
-    }
-    ::-webkit-scrollbar
-{
 
-    width: 0px !important;
-}
-::-webkit-scrollbar-thumb
-{
-    width: 0px !important;
-    visibility: hidden;
-}
+
     .navbar-toggler {
         background-color: #dc3545;
         margin-left: 78%;
@@ -403,5 +390,39 @@
         background-color: #dc3545;
         margin-left: 65%;
         margin-top: -53px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .navbar-toggler {
+       
+        background-color: #dc3545;
+        margin-left: 62%;
+        margin-top: -53px;
+    }
+    .navbar-toggler span {
+        color: white;
+        width: 20px;
+        height: 17px;
+        font-size: 17px;
+    }
+    #our-class .tab-content ul li {
+        background: #f1f1f1;
+        width: 98.5%;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding-top: -14px;
+    }
+    #footer .footer .footer-details .details .row img {
+        margin-bottom: 5px;
+        width: 52%;
+        margin-right: 5px;
+    
+    }
+    #footer .footer .footer-details .details .row {
+        margin-right: -76px;
+        
     }
 }

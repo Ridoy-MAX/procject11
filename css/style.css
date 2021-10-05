@@ -1355,6 +1355,7 @@ border: none;
     background-size: cover;
 }
 #footer .footer .container .logo{
+    width: 200px;
 text-align: center;
 padding: 16px;
 }
